@@ -92,19 +92,18 @@
 	    </snapshotRepository>
 	</distributionManagement>
 	
-	<!--<distributionManagement>
+	<distributionManagement>
     <repository>
         <id>Jfrog</id>
-        <name>pullareddy-PC-releases</name>
-        <url>http://localhost:9005/artifactory/maven-web-jfrog</url>
+        <name>releases</name>
+        <url>http://18.189.185.144:8081/repository/my_app-release/</url>
     </repository>
     <snapshotRepository>
         <id>Jfrog</id>
-        <name>pullareddy-PC-snapshots</name>
-        <url>http://localhost:9005/artifactory/maven-web-jfrog</url>
+        <name>snapshots</name>
+        <url>http://18.189.185.144:8081/repository/my_app-sanpshots/</url>
     </snapshotRepository>
       </distributionManagement>
--->
 	
   <build>
     <plugins>
